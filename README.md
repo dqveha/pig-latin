@@ -1,20 +1,20 @@
 Describe: pigLatin()
 
-Test: "It will add 'way' to the end of words that begin with a vowel."
+<!-- Test: "It will add 'way' to the end of words that begin with a vowel."
 Code: pigLatin("a");
-Expected Output: "away"
-
+Expected Output: "away" -->
+<!--
 Test: "It will add 'way' to the end of words that begin with a vowel regardless of case."
 Code: pigLatin("A");
-Expected Output: "Away"
+Expected Output: "Away" -->
 
-Test: "It will add 'ay' to the end of words that begin with a consonant."
-Code: pigLatin("z");
-Expected Output: "zay"
+<!-- Test: "It will add 'ay' to the end of words that begin with a consonant."
+Code: pigLatin("ze");
+Expected Output: "ezay" -->
 
-Test: "It will add 'ay' to the end of words that begin with a consonant regardless of case."
-Code: pigLatin("Z");
-Expected Output: "Zay"
+<!-- Test: "It will add 'ay' to the end of words that begin with a consonant regardless of case."
+Code: pigLatin("Ze");
+Expected Output: "eZay" -->
 
 Test: "It will add 'ay' to the end of words that begin with two consecutive consonants."
 Code: pigLatin("zs");
